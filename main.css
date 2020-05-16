@@ -1,0 +1,123 @@
+
+
+h1{height: 60px;
+			background-color: #939;
+			padding: 0;
+			color: #ecc552;
+            font-size: 2em;
+            font-family: 'Open sans'
+
+		}
+
+		footer{
+			height:60px;
+			background-color: #939;
+			padding: 0;
+			color: #ecc552;
+			font-family: 'Open sans';
+			font-size: 2em;
+			font-weight: bolder;
+
+		}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+	
+	
+
+
+body { background: #c6f }
+
+.navigator{
+	width: 1000px;
+	margin: 30px auto;
+	background-color: #ff9;
+}
+
+.navigator ul{
+	list-style: none;
+}
+
+.menu>li{
+	position: relative;
+	display: inline-block;
+}
+.menu>li>a{
+	display: block;
+	padding: 15px 20px;
+	color: green;
+	font-family: 'Open sans';
+	text-decoration: none; 
+}
+.menu li a:hover{
+	color: #939;
+	transition: all .3s;
+}
+
+/*submenu*/
+.submenu{
+	position: absolute;
+	background: #ff9;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+display: block;
+padding: 15px;
+font-family: 'Open sans';
+text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility:  visible;
+	opacity: 1;
+}
+ .button-for-search{
+ 	color: green;
+ 	font-family: 'Open sans';
+ 	width: 120%;
+background-color: violet;
+ }
+
+ .searchinput{
+ 	height:22px;
+ 	background-color: violet;
+ 	color: blue;
+
+ }
+ .container{
+ 	width: 80%;
+ 	height: 300px;
+ 	background-color: #939;
+ 	margin: 50px auto;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: stretch;
+
+
+ }
+ .promo{
+ 	background-color: #ecc552;
+ 	width: 200px;
+ 	height: 235px;
+ 	margin: 30px;
+ 	padding: 10px;
+ }
+
+.product{
+ 	display: flex;
+ 
+ 	background-color: #ecc552;
+ 	width: 200px;
+ 	height: 235px;
+ 	margin: 30px;
+ 	padding: 10px;
+ }
